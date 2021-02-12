@@ -83,3 +83,5 @@ def grafico_atraso_sentido(df):#função para geração de gráfico de atraso de
     py.plot(fig)
     
     return agrupamento
+
+#def grafico_atraso(df):
