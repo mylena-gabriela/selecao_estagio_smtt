@@ -54,5 +54,6 @@ def grafico_atraso_viagem(arq2):
                    barmode = 'stack', template='plotly_white')
     
     fig = go.Figure(data=data, layout=layout)
-    py.plot(fig)     
-    return empresas_percentual_atraso
+    #py.plot(fig)
+    py.iplot(fig)     
+    return fig

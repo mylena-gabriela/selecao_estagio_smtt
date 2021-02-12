@@ -32,7 +32,8 @@ def grafico_atraso_linha(df):#função para geração de gráfico de atraso de v
                    barmode = 'stack', template='plotly_white')
     
     fig = go.Figure(data=data, layout=layout)
-    py.plot(fig)
+    #py.plot(fig)
+    py.iplot(fig)
     
     return agrupamento
 
@@ -56,7 +57,8 @@ def grafico_atraso_empresa(df):#função para geração de gráfico de atraso de
                    barmode = 'stack', template='plotly_white')
     
     fig = go.Figure(data=data, layout=layout)
-    py.plot(fig)
+    #py.plot(fig)
+    py.iplot(fig)
     
     return agrupamento
 
@@ -80,7 +82,8 @@ def grafico_atraso_sentido(df):#função para geração de gráfico de atraso de
                    barmode = 'stack', template='plotly_white')
     
     fig = go.Figure(data=data, layout=layout)
-    py.plot(fig)
+    #py.plot(fig)
+    py.iplot(fig)
     
     return agrupamento
 

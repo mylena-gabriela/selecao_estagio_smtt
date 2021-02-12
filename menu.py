@@ -16,9 +16,9 @@ from grafico_percentual_atraso_viagem import grafico_atraso_viagem
 arquivo = "viagens.csv"
 df = abrir_arquivo(arquivo)
 
-#grafico1 = grafico_atraso_linha(df)
+grafico = grafico_atraso_linha(df)
 #grafico2 = grafico_atraso_empresa(df)
-grafico3 = grafico_atraso_sentido(df)
+#grafico3 = grafico_atraso_sentido(df)
 
 arq = divisao_empresas(df)
 
